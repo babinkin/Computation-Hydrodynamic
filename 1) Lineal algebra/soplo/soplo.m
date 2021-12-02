@@ -1,28 +1,7 @@
-% программа решения задачи течения по соплу Лаваля
-% для лабораторной работы "Численные методы алгебры"
-% 
-% 
-% Карпенко А.Г. aspera.2003.ru@mail.ru     15.09.14 
-%
-%
-% =========================================================================
 clc
 close
 clear
-%==========================================================================
-% Настройка шрифтов в зависимости от ОС
-if isunix
-    fontname = 'Free Helvetian';% for LINUX
-    % Для Юникс системвыставляется не тот шрифт в функции msgbox, поэтому
-    % либо правим файл toolbox/matlab/uitools/msgbox.m, либо для каждого
-    % объекта после создания меняем шрифт
-elseif ispc
-    fontname = 'Arian Cyr';% for Windows
-end
-set(0,'DefaultAxesFontName',fontname);
-set(0,'DefaultTextFontName',fontname);
-set(0,'DefaultUIControlFontname',fontname);
-set(0,'fixedwidthfontname',fontname);
+
 TextSize = 20;
 %==========================================================================
 % Количество узлов 
