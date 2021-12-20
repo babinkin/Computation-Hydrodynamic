@@ -6,3 +6,4 @@ Computation Hydrodynamic Laboratory Works
 4. Explicit Schemes
 5. Unsteady Heat Conduction Equation
 6. Rieamann Problem
+7. Finite Volume Method
